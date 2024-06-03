@@ -179,4 +179,4 @@ Copy code
         -Response: Confirmation message.
 
 ### Walkthrough Video
-[Walkthrough Video](#)
+[Walkthrough Video](https://app.screencastify.com/v3/watch/Q15MENdIX9R7sMgjHNZC)
