@@ -59,59 +59,58 @@ To interact with the API, use Insomnia.
 ## API Endpoints
 
 # Tags
-    -Get All Tags
+    - Get All Tags
 
-        -GET /api/tags
-        -Response: List of all tags with associated products.
+        - GET /api/tags
+        - Response: List of all tags with associated products.
 
-    -Get a Single Tag
+    - Get a Single Tag
 
-        -GET /api/tags/:id
-        -Response: A single tag with associated products.
+        - GET /api/tags/:id
+        - Response: A single tag with associated products.
 
-    -Create a New Tag
+    - Create a New Tag
 
-        -POST /api/tags
-        -Body:
+        - POST /api/tags
+        - Body:
 ```json
 {
   "tag_name": "New Tag"
 }
 ```
-        -Response: The newly created tag.
+        - Response: The newly created tag.
 
-    -Update a Tag
+    - Update a Tag
 
-        -PUT /api/tags/:id
-        -Body:
+        - PUT /api/tags/:id
+        - Body:
 ```json
-Copy code
 {
   "tag_name": "Updated Tag"
 }
 ```
-        -Response: The updated tag.
+        - Response: The updated tag.
 
-    -Delete a Tag
+    - Delete a Tag
 
-        -DELETE /api/tags/:id
-        -Response: Confirmation message.
+        - DELETE /api/tags/:id
+        - Response: Confirmation message.
 
 # Products
-    -Get All Products
+    - Get All Products
 
-        -GET /api/products
-        -Response: List of all products with associated categories and tags.
+        - GET /api/products
+        - Response: List of all products with associated categories and tags.
 
-    -Get a Single Product
+    - Get a Single Product
 
-        -GET /api/products/:id
-        -Response: A single product with associated categories and tags.
+        - GET /api/products/:id
+        - Response: A single product with associated categories and tags.
 
-    -Create a New Product
+    - Create a New Product
 
-        -POST /api/products
-        -Body:
+        - POST /api/products
+        - Body:
 ```json
 {
   "product_name": "Basketball",
@@ -120,11 +119,11 @@ Copy code
   "tagIds": [1, 2, 3, 4]
 }
 ```
-        -Response: The newly created product and associated tags.
-    -Update a Product
+        - Response: The newly created product and associated tags.
+    - Update a Product
 
-        -PUT /api/products/:id
-        -Body:
+        - PUT /api/products/:id
+        - Body:
 ```json
 {
   "product_name": "Basketball",
@@ -133,50 +132,50 @@ Copy code
   "tagIds": [1, 3]
 }
 ```
-        -Response: The updated product and associated tags.
+        - Response: The updated product and associated tags.
 
-    -Delete a Product
+    - Delete a Product
 
-        -DELETE /api/products/:id
-        -Response: Confirmation message.
+        - DELETE /api/products/:id
+        - Response: Confirmation message.
 
 # Categories
-    -Get All Categories
+    - Get All Categories
 
-        -GET /api/categories
-        -Response: List of all categories with associated products.
+        - GET /api/categories
+        - Response: List of all categories with associated products.
 
-    -Get a Single Category
+    - Get a Single Category
 
-        -GET /api/categories/:id
-        -Response: A single category with associated products.
+        - GET /api/categories/:id
+        - Response: A single category with associated products.
 
-    -Create a New Category
+    - Create a New Category
 
-        -POST /api/categories
-        -Body:
+        - POST /api/categories
+        - Body:
 ```json
 {
   "category_name": "New Category"
 }
 ```
-        -Response: The newly created category.
+        - Response: The newly created category.
 
-    -Update a Category
+    - Update a Category
 
-        -PUT /api/categories/:id
-        -Body:
+        - PUT /api/categories/:id
+        - Body:
 ```json
 {
   "category_name": "Updated Category"
 }
 ```
-        -Response: The updated category.
+        - Response: The updated category.
 
-    -Delete a Category
+    - Delete a Category
 
-        -DELETE /api/categories/:id
-        -Response: Confirmation message.
+        - DELETE /api/categories/:id
+        - Response: Confirmation message.
 
 ### Walkthrough Video
 [Walkthrough Video](https://app.screencastify.com/v3/watch/Q15MENdIX9R7sMgjHNZC)
